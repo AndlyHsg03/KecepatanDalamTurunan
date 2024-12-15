@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kecepatan dan Posisi Pelari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hitung Kecepatan Kendaraan</h1>
+
+        <label for="persamaan">Masukkan persamaan posisi (contoh: 2t^2 + 2t): </label>
+        <input type="text" id="persamaan" placeholder="Misalnya: 2t^2 + 2t" />
+
+        <label for="time">Masukkan waktu (t) dalam detik: </label>
+        <input type="number" id="time" placeholder="Masukkan waktu" />
+
+        <button onclick="hitung()">Hitung</button>
+
+        <div id="kecepatan" class="result"></div>
+        <div id="posisi" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
